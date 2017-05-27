@@ -1,0 +1,26 @@
+Vim is a pretty great text editor, but learning to use it effectively can be a challenge. 
+Even if you keep a quick-reference card or cheatsheet around, it can be difficult to figure out which commands are the most useful. 
+But the truth is, Vim can still be super helpful if all you know is a few commands. 
+So I’ve compiled a few of the Vim commands that I use every day.
+
+h j k l
+Basic movement keys. A step up from the cursor keys simply because they are already under your fingers. 
+Most useful when prefixed with a number (e.g. if you need to move down by about 10 lines, 
+hit “10j” instead of just holding j until you get there).
+
+ctrl+u ctrl+d
+Basically Page Up and Page Down, but moves by half a screenful and doesn’t lose your cursor position.
+
+ctrl+o ctrl+i
+Move backward/forward through the jump history. Useful if you have followed a chain of method calls and need to get back to where you were.
+
+cc
+Correct line(s) by clearing and then entering insert mode. Starts inserting at the current indent level.
+
+dd
+Delete line(s). Quickly rearrange lines by deleting them, moving to the new location, and pasting with “p”.
+
+u ctrl+r
+Undo and redo.
+
+
